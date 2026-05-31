@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Entropy Analyzer — Glassmorphism Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="glass-bg"></div>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="logo-row">
+                <span class="logo-emoji">📐</span>
+                <div class="title-col">
+                    <h1>Password Entropy Analyzer</h1>
+                    <p class="tagline">Check exact character set margins and bit entropy levels in password values.</p>
+                </div>
+            </div>
+            <div class="badge">security</div>
+        </header>
+
+        <main class="workspace-card">
+            
+            <input type="password" id="ent-pw" placeholder="Enter password to calculate entropy..." style="width: 100%; margin-bottom: 16px;">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+                <div class="stat-box">
+                    <div class="lbl">Bit Entropy</div>
+                    <div class="val" id="ent-bits">0 Bits</div>
+                </div>
+                <div class="stat-box">
+                    <div class="lbl">Security Grade</div>
+                    <div class="val" id="ent-grade">N/A</div>
+                </div>
+            </div>
+        
+        </main>
+        
+        <footer class="app-footer">
+            <p>Created as a premium portfolio piece by <a href="https://github.com/VARSHAN69" target="_blank">@VARSHAN69</a></p>
+        </footer>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
