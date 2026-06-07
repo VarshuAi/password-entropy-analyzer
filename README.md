@@ -38,7 +38,7 @@ version: 1.0
 type: Repository
 author: VarshuAi
 description: >
-  Check exact character set margins and bit entropy levels in password values.
+  name: password-entropy-analyzer version: 1.0 type: Repository author: VarshuAi description: >   Check exact character set margins and bit entropy levels in password values. primary_tech: CSS
 primary_tech: CSS
 ```
 
